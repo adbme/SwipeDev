@@ -1,0 +1,15 @@
+{
+    "name": "adbme/php-practice",
+    "autoload": {
+        "psr-4": {
+            "Adbme\\PhpPractice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ad.bme",
+            "email": "adil.bouamrioune@gmail.com"
+        }
+    ],
+    "require": {}
+}

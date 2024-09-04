@@ -1,0 +1,23 @@
+[
+    {
+        "3": "bananes",
+        "fuit": "pomme"
+    },
+    {
+        "ici": "mais pas l\u00e0"
+    },
+    2,
+    "je ne suis pas l\u00e0",
+    {
+        "ni l\u00e0": {
+            "23": 32
+        }
+    },
+    {
+        "et encore moins l\u00e0": {
+            "mais ici": {
+                "j'y suis": "peut-\u00eatre"
+            }
+        }
+    }
+]

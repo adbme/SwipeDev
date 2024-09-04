@@ -1,0 +1,28 @@
+
+$json = file_get_contents('../data/datas.json');
+
+
+
+
+if (!$json) {
+    die('Error reading the JSON file');
+}
+
+// Decode the JSON file
+$json_data = json_decode($json, true);
+
+
+die(var_dump($json));
+
+// Check if the JSON was decoded successfully
+if (!$json_data) {
+    die('Error decoding the JSON file');
+}
+/*  echo "la couleur est: ", $data["color"]. "<br/>"; */
+/* die(var_dump($data)); */
+
+foreach ($json_data as $data) {
+   foreach($data as $key => $value){
+    echo $key, " : ", $value. "<br/>";
+   }
+}
