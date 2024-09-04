@@ -4,8 +4,7 @@
         <img src="img/logo.svg" class="w-10 h-10" alt="logo">
         <p>Swipe<span class="font-bold text-red-900">Dev</span></p>
     </a>
-
-^    <button id="menuBtn" class="md:hidden block py-2 px-4 text-gray-700 focus:outline-none">
+   <button id="menuBtn" class="md:hidden block py-2 px-4 text-gray-700 focus:outline-none">
         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
         </svg>

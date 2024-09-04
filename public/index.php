@@ -31,7 +31,7 @@ require 'header.php'
 
 
 
-            <?php if ($active_page == 'profile'): ?>
+            <?php if ($active_page == 'feed'): ?>
                 
 <div class="w-[600px] bg-white rounded-3xl shadow-lg p-6 text-center">
     <div class="flex justify-center">
@@ -64,7 +64,7 @@ require 'header.php'
         </div>
     <?php endif; ?>
 </div>
-            <?php elseif ($active_page == 'feed'): ?>
+            <?php elseif ($active_page == 'profile'): ?>
                 <div class="w-full h-52 bg-red-100 rounded">
                    <h1>section 2</h1>
                 </div>
